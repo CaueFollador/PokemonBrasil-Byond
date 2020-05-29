@@ -1,0 +1,255 @@
+macro "macro"
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+		is-disabled = false
+	elem 
+		name = "NORTHEAST+REP"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHEAST+REP"
+		command = ".southeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHWEST+REP"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "NORTHWEST+REP"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "Jogo"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Mensagens e Macros"
+		command = ".options"
+		category = "Jogo"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Tirar Foto"
+		command = ".screenshot"
+		category = "Jogo"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Sair"
+		command = ".quit"
+		category = "Jogo"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Tela"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "Strech"
+		name = "Aloganda"
+		command = ".winset \"mappane.icon-size=0\""
+		category = "Tela"
+		is-checked = false
+		can-check = true
+		group = "size"
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "Icon32"
+		name = "Padrão (32x32)"
+		command = ".winset \"mappane.icon-size=32\""
+		category = "Tela"
+		is-checked = false
+		can-check = true
+		group = "siz"
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "Icon16"
+		name = "Pequeno(16x16)"
+		command = ".winset \"mappane.icon-size=16\""
+		category = "Tela"
+		is-checked = false
+		can-check = true
+		group = "size"
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "main"
+	elem "main"
+		type = MAIN
+		pos = 0,0
+		size = 1014x684
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #808080
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-maximized"
+		title = ""
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = 'C:\\Documents and Settings\\Caue\\Meus documentos\\Minhas imagens\\pokebola.gif'
+		image = 'aaa.PNG'
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = "menu"
+		on-close = ""
+	elem "mappane"
+		type = MAP
+		pos = 8,16
+		size = 616x632
+		anchor1 = 0,0
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		icon-size = 0
+		text-mode = false
+		on-show = ""
+		on-hide = ""
+	elem "info1"
+		type = INFO
+		pos = 632,18
+		size = 376x302
+		anchor1 = 0,0
+		anchor2 = 100,31
+		font-family = ""
+		font-size = 7
+		font-style = ""
+		text-color = #000000
+		background-color = #ffff00
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = true
+		right-click = false
+		saved-params = ""
+		highlight-color = #0000ff
+		tab-text-color = #ffff00
+		tab-background-color = #000000
+		tab-font-family = "Comic Sans MS"
+		tab-font-size = 7
+		tab-font-style = ""
+		allow-html = true
+		multi-line = true
+		on-show = ""
+		on-hide = ""
+		on-tab = ""
+	elem "output1"
+		type = OUTPUT
+		pos = 632,328
+		size = 376x320
+		anchor1 = 62,48
+		anchor2 = 99,95
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+	elem "input"
+		type = INPUT
+		pos = 8,656
+		size = 1000x24
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		command = ""
+		multi-line = false
+		is-password = false
+		no-command = false
+

@@ -1,0 +1,68 @@
+// DM Environment file for Pokémon Brasil.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+/*
+FILE: mapa.dmm
+DIR: comidas Tipos Tipos\(Fósseis) Tipos\Dragão Tipos\Elétrico Tipos\Fantasma Tipos\Fogo Tipos\Gelo Tipos\Grama Tipos\Insetos Tipos\Lendários Tipos\Lutador Tipos\Metálico Tipos\Negro Tipos\Normal Tipos\Pedra Tipos\Psiquicos Tipos\Shinies Tipos\Terra
+UPDATE_OBJ_TREE: ON
+MAP_ICON_TYPE: 0
+AUTO_FILE_DIR: ON
+*/
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "backup"
+#define FILE_DIR "Combinados"
+#define FILE_DIR "comidas"
+#define FILE_DIR "Tipos"
+#define FILE_DIR "Tipos/(Fósseis)"
+#define FILE_DIR "Tipos/Dragão"
+#define FILE_DIR "Tipos/Elétrico"
+#define FILE_DIR "Tipos/Fantasma"
+#define FILE_DIR "Tipos/Fogo"
+#define FILE_DIR "Tipos/Gelo"
+#define FILE_DIR "Tipos/Grama"
+#define FILE_DIR "Tipos/Insetos"
+#define FILE_DIR "Tipos/Lendários"
+#define FILE_DIR "Tipos/Lutador"
+#define FILE_DIR "Tipos/Metálico"
+#define FILE_DIR "Tipos/Negro"
+#define FILE_DIR "Tipos/Normal"
+#define FILE_DIR "Tipos/Pedra"
+#define FILE_DIR "Tipos/Psiquicos"
+#define FILE_DIR "Tipos/Shinies"
+#define FILE_DIR "Tipos/Terra"
+#define FILE_DIR "Tipos/Venenoso"
+#define FILE_DIR "Tipos/Voador"
+#define FILE_DIR "Tipos/Água"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "ADM.dm"
+#include "aparecerpokemon.dm"
+#include "Ataques.dm"
+#include "evolu.dm"
+#include "gym.dm"
+#include "Insignias.dm"
+#include "Login.dm"
+#include "msg pro kanatsu.dm"
+#include "NPCs.dm"
+#include "Obj.dm"
+#include "pokemon.dm"
+#include "Pokébolas.dm"
+#include "portagym.dm"
+#include "Procs.dm"
+#include "Tecnicas.dm"
+#include "tele.dm"
+#include "Turf.dm"
+#include "var.dm"
+#include "Verbs.dm"
+#include "skin.dmf"
+#include "mapa.dmm"
+// END_INCLUDE
+
